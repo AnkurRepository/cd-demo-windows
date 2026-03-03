@@ -32,15 +32,15 @@ pipeline {
     }
     
     post {
-    success {
-        echo ' Deployment Successfull'
-    }
-    failure {
-        echo ' Deployment Failed!'
-    }
-    always {
-        echo ' Pipeline execution completed.'
-    }
+        success {
+            echo ' Deployment Successfull'
+        }
+        failure {
+            echo ' Deployment Failed!'
+        }
+        always {
+            echo ' Pipeline execution completed.'
+        }
     }
 
 }
